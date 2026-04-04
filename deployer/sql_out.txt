@@ -1,0 +1,8 @@
+2026/03/08 23:23:29 RUN:  sudo -u postgres psql -d labeba -c "ALTER TABLE solicitudes_reserva ADD COLUMN IF NOT EXISTS bed_id INTEGER;"
+NOTICE:  column "bed_id" of relation "solicitudes_reserva" already exists, skipping
+ALTER TABLE
+2026/03/08 23:23:29 RUN:  sudo -u postgres psql -d labeba -c "ALTER TABLE solicitudes_reserva ADD COLUMN IF NOT EXISTS plataforma VARCHAR(100) DEFAULT 'directo';"
+NOTICE:  column "plataforma" of relation "solicitudes_reserva" already exists, skipping
+ALTER TABLE
+2026/03/08 23:23:29 RUN:  systemctl restart labeba
+2026/03/08 23:23:30 Manual SQL alter finished.

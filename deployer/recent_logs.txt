@@ -1,0 +1,100 @@
+Mar 10 01:55:04 srv1464046 labeba[48692]: 2026/03/10 01:55:04 "GET http://laabuelabeba.cloud/assets/huerta4.png HTTP/1.0" from 127.0.0.1:43044 - 304 0B in 573.411µs
+Mar 10 01:55:04 srv1464046 labeba[48692]: 2026/03/10 01:55:04 "GET http://laabuelabeba.cloud/assets/dron2.mp4 HTTP/1.0" from 127.0.0.1:43056 - 206 2B in 68.321µs
+Mar 10 01:55:04 srv1464046 labeba[48692]: 2026/03/10 01:55:04 "GET http://laabuelabeba.cloud/assets/paisaje3.mp4 HTTP/1.0" from 127.0.0.1:43062 - 206 2B in 152.899µs
+Mar 10 01:55:04 srv1464046 labeba[48692]: 2026/03/10 01:55:04 "GET http://laabuelabeba.cloud/assets/naturaleza.jpg HTTP/1.0" from 127.0.0.1:43070 - 304 0B in 169.911µs
+Mar 10 01:55:04 srv1464046 labeba[48692]: 2026/03/10 01:55:04 "GET http://laabuelabeba.cloud/assets/surf.png HTTP/1.0" from 127.0.0.1:43086 - 304 0B in 36.61µs
+Mar 10 01:55:04 srv1464046 labeba[48692]: 2026/03/10 01:55:04 "GET http://laabuelabeba.cloud/assets/biocons2_full.png HTTP/1.0" from 127.0.0.1:43072 - 304 0B in 32.35µs
+Mar 10 01:55:04 srv1464046 labeba[48692]: 2026/03/10 01:55:04 "GET http://laabuelabeba.cloud/assets/habitacion_privada.jpg HTTP/1.0" from 127.0.0.1:43088 - 304 0B in 151.03µs
+Mar 10 01:55:04 srv1464046 labeba[48692]: 2026/03/10 01:55:04 "GET http://laabuelabeba.cloud/assets/bio_cons_full.png HTTP/1.0" from 127.0.0.1:43098 - 304 0B in 35.14µs
+Mar 10 01:55:04 srv1464046 labeba[48692]: 2026/03/10 01:55:04 "GET http://laabuelabeba.cloud/assets/cabana_wa_1.jpg HTTP/1.0" from 127.0.0.1:43090 - 304 0B in 24.79µs
+Mar 10 01:55:05 srv1464046 labeba[48692]: 2026/03/10 01:55:05 "GET http://laabuelabeba.cloud/assets/paisaje3.mp4 HTTP/1.0" from 127.0.0.1:43108 - 206 2480395B in 2.159113ms
+Mar 10 01:55:05 srv1464046 labeba[48692]: 2026/03/10 01:55:05 "GET http://laabuelabeba.cloud/assets/habitacion2.jpg HTTP/1.0" from 127.0.0.1:43114 - 304 0B in 83.811µs
+Mar 10 01:55:05 srv1464046 labeba[48692]: 2026/03/10 01:55:05 "GET http://laabuelabeba.cloud/assets/cabana_wa_2.jpg HTTP/1.0" from 127.0.0.1:43116 - 304 0B in 42.471µs
+Mar 10 01:55:05 srv1464046 labeba[48692]: 2026/03/10 01:55:05 "GET http://laabuelabeba.cloud/assets/cabana_wa_3.jpg HTTP/1.0" from 127.0.0.1:43138 - 304 0B in 66.97µs
+Mar 10 01:55:05 srv1464046 labeba[48692]: 2026/03/10 01:55:05 "GET http://laabuelabeba.cloud/assets/reciclado/img2.jpg HTTP/1.0" from 127.0.0.1:43128 - 304 0B in 39.92µs
+Mar 10 01:55:05 srv1464046 labeba[48692]: 2026/03/10 01:55:05 "GET http://laabuelabeba.cloud/assets/caba%C3%B1as2.jpg HTTP/1.0" from 127.0.0.1:43154 - 304 0B in 40.54µs
+Mar 10 01:55:05 srv1464046 labeba[48692]: 2026/03/10 01:55:05 "GET http://laabuelabeba.cloud/assets/ecopunto.jpg HTTP/1.0" from 127.0.0.1:43170 - 304 0B in 170.66µs
+Mar 10 01:55:05 srv1464046 labeba[48692]: 2026/03/10 01:55:05 "GET http://laabuelabeba.cloud/assets/caba%C3%B1as1.jpg HTTP/1.0" from 127.0.0.1:43172 - 304 0B in 45.24µs
+Mar 10 01:55:05 srv1464046 labeba[48692]: 2026/03/10 01:55:05 "GET http://laabuelabeba.cloud/assets/reciclado/img1.png HTTP/1.0" from 127.0.0.1:43178 - 304 0B in 149.06µs
+Mar 10 01:55:19 srv1464046 labeba[48692]: 2026/03/10 01:55:19 "GET http://laabuelabeba.cloud/assets/paisaje3.mp4 HTTP/1.0" from 127.0.0.1:55796 - 206 1890571B in 2.608492ms
+Mar 10 01:55:19 srv1464046 labeba[48692]: 2026/03/10 01:55:19 "GET http://laabuelabeba.cloud/assets/dron2.mp4 HTTP/1.0" from 127.0.0.1:38380 - 206 17306504B in 29.967336ms
+Mar 10 01:55:28 srv1464046 labeba[48692]: 2026/03/10 01:55:28 "GET http://laabuelabeba.cloud/api/beds/availability?room_type=compartido&from=2026-03-10&to=2026-03-12 HTTP/1.0" from 127.0.0.1:38390 - 200 1026B in 57.752653ms
+Mar 10 01:55:30 srv1464046 labeba[48692]: 2026/03/10 01:55:30 "GET http://laabuelabeba.cloud/assets/paisaje3.mp4 HTTP/1.0" from 127.0.0.1:46056 - 206 589824B in 1.200612ms
+Mar 10 01:55:37 srv1464046 labeba[48692]: 2026/03/10 01:55:37 "GET http://laabuelabeba.cloud/api/admin/huespedes?dni=36169749 HTTP/1.0" from 127.0.0.1:46064 - 200 3B in 3.889374ms
+Mar 10 01:56:02 srv1464046 labeba[48692]: 2026/03/10 01:56:02 "POST http://laabuelabeba.cloud/api/solicitudes HTTP/1.0" from 127.0.0.1:38568 - 201 178B in 120.145121ms
+Mar 10 01:56:02 srv1464046 labeba[48692]: 📧 [NOTIFICATION] Enviando notificación de nueva reserva a: info@laabuelabeba.cloud
+Mar 10 01:56:02 srv1464046 labeba[48692]:    Asunto: [Reserva] Solicitud de Plaza - Código: 36169749-2026 - Estanislao
+Mar 10 01:56:02 srv1464046 labeba[48692]:    Cuerpo:
+Mar 10 01:56:02 srv1464046 labeba[48692]: Hola,
+Mar 10 01:56:02 srv1464046 labeba[48692]: Se ha recibido una nueva solicitud de reserva.
+Mar 10 01:56:02 srv1464046 labeba[48692]: Código: 36169749-2026
+Mar 10 01:56:02 srv1464046 labeba[48692]: Nombre: Estanislao
+Mar 10 01:56:02 srv1464046 labeba[48692]: DNI: 36169749
+Mar 10 01:56:02 srv1464046 labeba[48692]: Plazas: 1 (compartido)
+Mar 10 01:56:02 srv1464046 labeba[48692]: Fechas: 10/03/2026 al 12/03/2026
+Mar 10 01:56:02 srv1464046 labeba[48692]: El Equipo de La Abuela Beba validará la solicitud a la brevedad.
+Mar 10 01:56:02 srv1464046 labeba[48692]: Saludos,
+Mar 10 01:56:02 srv1464046 labeba[48692]: La Administración
+Mar 10 02:02:08 srv1464046 labeba[48692]: 2026/03/10 02:02:08 "GET http://laabuelabeba.cloud/assets/dron2.mp4 HTTP/1.0" from 127.0.0.1:46244 - 206 7935161B in 11.074244ms
+Mar 10 02:02:09 srv1464046 labeba[48692]: 2026/03/10 02:02:09 "GET http://laabuelabeba.cloud/assets/paisaje3.mp4 HTTP/1.0" from 127.0.0.1:60594 - 304 0B in 299.721µs
+Mar 10 02:03:22 srv1464046 systemd[1]: Stopping labeba.service - La Beba API and Web Service...
+Mar 10 02:03:22 srv1464046 systemd[1]: labeba.service: Deactivated successfully.
+Mar 10 02:03:22 srv1464046 systemd[1]: Stopped labeba.service - La Beba API and Web Service.
+Mar 10 02:03:22 srv1464046 systemd[1]: labeba.service: Consumed 2.481s CPU time, 9.9M memory peak, 0B memory swap peak.
+Mar 10 02:03:35 srv1464046 systemd[1]: Started labeba.service - La Beba API and Web Service.
+Mar 10 02:03:35 srv1464046 labeba[58377]: Connected to PostgreSQL database
+Mar 10 02:03:35 srv1464046 labeba[58377]: Gallery table ready
+Mar 10 02:03:35 srv1464046 labeba[58377]: Huespedes historicos table ready
+Mar 10 02:03:35 srv1464046 labeba[58377]: Beds tables ready
+Mar 10 02:03:35 srv1464046 labeba[58377]: Serving frontend from: ../frontend/dist
+Mar 10 02:03:35 srv1464046 labeba[58377]: Server starting on port 8080...
+Mar 10 02:05:09 srv1464046 labeba[58377]: 2026/03/10 02:05:09 "GET http://laabuelabeba.cloud/ HTTP/1.0" from 127.0.0.1:51926 - 200 3990B in 4.623208ms
+Mar 10 02:05:09 srv1464046 labeba[58377]: 2026/03/10 02:05:09 "GET http://laabuelabeba.cloud/assets/hero_sol.jpg HTTP/1.0" from 127.0.0.1:51928 - 304 0B in 107.24µs
+Mar 10 02:05:09 srv1464046 labeba[58377]: 2026/03/10 02:05:09 "GET http://laabuelabeba.cloud/assets/hero_fogata.jpg HTTP/1.0" from 127.0.0.1:51940 - 304 0B in 127.261µs
+Mar 10 02:05:09 srv1464046 labeba[58377]: 2026/03/10 02:05:09 "GET http://laabuelabeba.cloud/assets/logo_beba.png HTTP/1.0" from 127.0.0.1:51950 - 304 0B in 108.121µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/bio.png HTTP/1.0" from 127.0.0.1:51958 - 304 0B in 79.71µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/paisaje2.jpg HTTP/1.0" from 127.0.0.1:51974 - 304 0B in 130.85µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/logo_beba.png HTTP/1.0" from 127.0.0.1:51994 - 304 0B in 70.441µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/reciclado/img3.png HTTP/1.0" from 127.0.0.1:51982 - 304 0B in 26.3µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/dron2.mp4 HTTP/1.0" from 127.0.0.1:52000 - 206 2B in 159.371µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/paisaje3.mp4 HTTP/1.0" from 127.0.0.1:52008 - 206 2B in 127.11µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/surf.png HTTP/1.0" from 127.0.0.1:52022 - 304 0B in 179.471µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/huerta2.png HTTP/1.0" from 127.0.0.1:52028 - 304 0B in 78.18µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/huerta4.png HTTP/1.0" from 127.0.0.1:52040 - 304 0B in 72.99µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/huerta.png HTTP/1.0" from 127.0.0.1:52066 - 304 0B in 35.73µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/logo_beba.png HTTP/1.0" from 127.0.0.1:52058 - 304 0B in 51.72µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/huerta3.png HTTP/1.0" from 127.0.0.1:52060 - 304 0B in 33.2µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/paisaje3.mp4 HTTP/1.0" from 127.0.0.1:52056 - 206 2480395B in 1.993118ms
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/bio_cons_full.png HTTP/1.0" from 127.0.0.1:52072 - 304 0B in 129.24µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/naturaleza.jpg HTTP/1.0" from 127.0.0.1:52084 - 304 0B in 80.16µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/biocons2_full.png HTTP/1.0" from 127.0.0.1:52080 - 304 0B in 45.18µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/habitacion_privada.jpg HTTP/1.0" from 127.0.0.1:52088 - 304 0B in 75.85µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/cabana_wa_1.jpg HTTP/1.0" from 127.0.0.1:52086 - 304 0B in 80.481µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/cabana_wa_3.jpg HTTP/1.0" from 127.0.0.1:52098 - 304 0B in 120.74µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/habitacion2.jpg HTTP/1.0" from 127.0.0.1:52106 - 304 0B in 82.2µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/cabana_wa_2.jpg HTTP/1.0" from 127.0.0.1:52110 - 304 0B in 74.1µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/reciclado/img2.jpg HTTP/1.0" from 127.0.0.1:52130 - 304 0B in 70.071µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/caba%C3%B1as2.jpg HTTP/1.0" from 127.0.0.1:52120 - 304 0B in 172.631µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/reciclado/img1.png HTTP/1.0" from 127.0.0.1:52160 - 304 0B in 118.95µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/ecopunto.jpg HTTP/1.0" from 127.0.0.1:52146 - 304 0B in 65.369µs
+Mar 10 02:05:10 srv1464046 labeba[58377]: 2026/03/10 02:05:10 "GET http://laabuelabeba.cloud/assets/caba%C3%B1as1.jpg HTTP/1.0" from 127.0.0.1:52168 - 304 0B in 134.961µs
+Mar 10 02:05:46 srv1464046 labeba[58377]: 2026/03/10 02:05:46 "GET http://laabuelabeba.cloud/api/beds/availability?room_type=compartido&from=2026-03-11&to=2026-03-13 HTTP/1.0" from 127.0.0.1:54830 - 200 1026B in 11.397003ms
+Mar 10 02:05:55 srv1464046 labeba[58377]: 2026/03/10 02:05:55 "GET http://laabuelabeba.cloud/api/admin/huespedes?dni=36169749 HTTP/1.0" from 127.0.0.1:51712 - 200 3B in 2.111588ms
+Mar 10 02:06:24 srv1464046 labeba[58377]: 2026/03/10 02:06:24 "POST http://laabuelabeba.cloud/api/solicitudes HTTP/1.0" from 127.0.0.1:34180 - 201 178B in 45.423561ms
+Mar 10 02:06:24 srv1464046 labeba[58377]: 📧 [NOTIFICATION] Enviando notificación de nueva reserva a: info@laabuelabeba.cloud
+Mar 10 02:06:24 srv1464046 labeba[58377]:    Asunto: [Reserva] Solicitud de Plaza - Código: 36169749-2026 - Estanislao
+Mar 10 02:06:24 srv1464046 labeba[58377]:    Cuerpo:
+Mar 10 02:06:24 srv1464046 labeba[58377]: Hola,
+Mar 10 02:06:24 srv1464046 labeba[58377]: Se ha recibido una nueva solicitud de reserva.
+Mar 10 02:06:24 srv1464046 labeba[58377]: Código: 36169749-2026
+Mar 10 02:06:24 srv1464046 labeba[58377]: Nombre: Estanislao
+Mar 10 02:06:24 srv1464046 labeba[58377]: DNI: 36169749
+Mar 10 02:06:24 srv1464046 labeba[58377]: Plazas: 1 (compartido)
+Mar 10 02:06:24 srv1464046 labeba[58377]: Fechas: 11/03/2026 al 13/03/2026
+Mar 10 02:06:24 srv1464046 labeba[58377]: El Equipo de La Abuela Beba validará la solicitud a la brevedad.
+Mar 10 02:06:24 srv1464046 labeba[58377]: Saludos,
+Mar 10 02:06:24 srv1464046 labeba[58377]: La Administración
+Mar 10 02:07:55 srv1464046 labeba[58377]: 2026/03/10 02:07:55 "GET http://laabuelabeba.cloud/wp-admin/setup-config.php HTTP/1.0" from 127.0.0.1:56600 - 200 3990B in 511.692µs
+Mar 10 02:08:00 srv1464046 labeba[58377]: 2026/03/10 02:08:00 "GET http://laabuelabeba.cloud/wordpress/wp-admin/setup-config.php HTTP/1.0" from 127.0.0.1:44130 - 200 3990B in 202.161µs
+Mar 10 02:09:42 srv1464046 labeba[58377]: 2026/03/10 02:09:42 "POST http://78.142.242.199:8080/api/solicitudes HTTP/1.1" from 181.117.11.201:13731 - 400 21B in 69.98µs
+Mar 10 02:10:25 srv1464046 labeba[58377]: 2026/03/10 02:10:25 "GET http://laabuelabeba.cloud/wp-admin/setup-config.php HTTP/1.0" from 127.0.0.1:43742 - 200 3990B in 189.361µs

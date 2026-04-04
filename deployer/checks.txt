@@ -1,0 +1,29 @@
+RUN: journalctl -u labeba -n 20 --no-pager
+Mar 28 23:43:13 srv1464046 labeba[722784]:    [MIGRACIÓN] Iniciando EnsureConfiguracionPreciosTable...
+Mar 28 23:43:13 srv1464046 labeba[722784]:    [MIGRACIÓN] Tabla configuracion_precios lista.
+Mar 28 23:43:13 srv1464046 labeba[722784]: Pricing config table ready
+Mar 28 23:43:13 srv1464046 labeba[722784]: Serving frontend from: ../frontend/dist
+Mar 28 23:43:13 srv1464046 labeba[722784]: [SERVER] La Beba Cloud v1.2 levantando en puerto 8080 con CORS para [http://78.142.242.199 http://78.142.242.199:80 https://laabuelabeba.cloud http://laabuelabeba.cloud]
+Mar 28 23:43:29 srv1464046 labeba[722784]: 2026/03/28 23:43:29 "HEAD http://localhost:8080/api/pricing HTTP/1.1" from [::1]:49374 - 405 0B in 57.77µs
+Mar 28 23:43:29 srv1464046 labeba[722784]: 2026/03/28 23:43:29 "GET http://localhost:8080/api/pricing HTTP/1.1" from [::1]:49380 - 200 199B in 1.028801ms
+Mar 28 23:44:14 srv1464046 systemd[1]: Stopping labeba.service - La Beba API and Web Service...
+Mar 28 23:44:14 srv1464046 systemd[1]: labeba.service: Deactivated successfully.
+Mar 28 23:44:14 srv1464046 systemd[1]: Stopped labeba.service - La Beba API and Web Service.
+Mar 28 23:44:27 srv1464046 systemd[1]: Started labeba.service - La Beba API and Web Service.
+Mar 28 23:44:27 srv1464046 labeba[722911]: Connected to PostgreSQL database
+Mar 28 23:44:27 srv1464046 labeba[722911]: Gallery table ready
+Mar 28 23:44:27 srv1464046 labeba[722911]: Huespedes historicos table ready
+Mar 28 23:44:27 srv1464046 labeba[722911]: Beds tables ready
+Mar 28 23:44:27 srv1464046 labeba[722911]:    [MIGRACIÓN] Iniciando EnsureConfiguracionPreciosTable...
+Mar 28 23:44:27 srv1464046 labeba[722911]:    [MIGRACIÓN] Tabla configuracion_precios lista.
+Mar 28 23:44:27 srv1464046 labeba[722911]: Pricing config table ready
+Mar 28 23:44:27 srv1464046 labeba[722911]: Serving frontend from: ../frontend/dist
+Mar 28 23:44:27 srv1464046 labeba[722911]: [SERVER] La Beba Cloud v1.2 levantando en puerto 8080 con CORS para [http://78.142.242.199 http://78.142.242.199:80 https://laabuelabeba.cloud http://laabuelabeba.cloud https://www.laabuelabeba.cloud]
+RUN: curl -sI -H 'Origin: https://laabuelabeba.cloud' http://localhost:8080/api/pricing
+HTTP/1.1 405 Method Not Allowed
+Allow: GET
+Vary: Origin
+Date: Sat, 28 Mar 2026 23:44:46 GMT
+
+RUN: curl -s http://localhost:8080/api/pricing
+{"compartido":{"base_price":18000,"discount_guests":[],"discount_lead_time":[],"discount_nights":[]},"privado":{"base_price":38000,"discount_guests":[],"discount_lead_time":[],"discount_nights":[]}}

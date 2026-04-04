@@ -1,0 +1,27 @@
+2026/03/08 23:23:59 RUN:  PGPASSWORD=labeba_prod_secret_2026 psql -h 127.0.0.1 -U labeba_user -d labeba -c "\d solicitudes_reserva"
+                                 Table "public.solicitudes_reserva"
+     Column      |           Type           | Collation | Nullable |            Default             
+-----------------+--------------------------+-----------+----------+--------------------------------
+ id              | uuid                     |           | not null | uuid_generate_v4()
+ nombre          | character varying(255)   |           | not null | 
+ dni             | character varying(50)    |           | not null | 
+ telefono        | character varying(50)    |           |          | 
+ email           | character varying(255)   |           |          | 
+ tipo_habitacion | character varying(100)   |           | not null | 
+ plazas          | integer                  |           |          | 1
+ check_in        | date                     |           | not null | 
+ check_out       | date                     |           | not null | 
+ noches          | integer                  |           |          | 1
+ precio_total    | numeric(12,2)            |           |          | 0
+ es_historico    | boolean                  |           |          | false
+ status          | character varying(50)    |           |          | 'PENDIENTE'::character varying
+ notas_admin     | text                     |           |          | 
+ created_at      | timestamp with time zone |           |          | CURRENT_TIMESTAMP
+ updated_at      | timestamp with time zone |           |          | CURRENT_TIMESTAMP
+ bed_id          | integer                  |           |          | 
+ plataforma      | character varying(100)   |           |          | 'directo'::character varying
+Indexes:
+    "solicitudes_reserva_pkey" PRIMARY KEY, btree (id)
+Referenced by:
+    TABLE "bed_blocks" CONSTRAINT "bed_blocks_solicitud_id_fkey" FOREIGN KEY (solicitud_id) REFERENCES solicitudes_reserva(id) ON DELETE SET NULL
+

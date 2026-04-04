@@ -1,0 +1,1 @@
+package main; import ("database/sql"; "log"; _ "github.com/lib/pq"); func main() { db, err := sql.Open("postgres", "user=postgres password=postgres dbname=labeba sslmode=disable"); if err != nil { log.Fatal(err) }; _, err = db.Exec("UPDATE users SET role = 'ADMIN', is_active = true WHERE email = 'marcelo@lanubecomputacion.com'"); if err != nil { log.Fatal(err) } }

@@ -1,0 +1,1 @@
+package main; import ("database/sql"; "log"; "fmt"; _ "github.com/lib/pq"); func main() { db, _ := sql.Open("postgres", "user=postgres password=postgres dbname=labeba sslmode=disable"); rows, err := db.Query("SELECT email FROM users"); if err != nil { log.Fatal(err) }; defer rows.Close(); for rows.Next() { var email string; rows.Scan(&email); fmt.Println(email) } }

@@ -1,0 +1,7 @@
+total 19136
+drwxr-xr-x 2 root root     4096 Mar  6 00:52 .
+drwxr-xr-x 4 root root     4096 Mar  6 00:18 ..
+-rwxr-xr-x 1 root root      481 Mar  9 02:18 .env
+-rwxr-xr-x 1 root root  8091407 Mar  6 00:55 force_admin
+-rwxr-xr-x 1 root root 11482791 Mar  6 00:37 labeba
+-rwxr-xr-x 1 root root     2808 Mar  9 02:18 schema.sql

@@ -1,0 +1,15 @@
+# /etc/systemd/system/labeba.service
+[Unit]
+Description=La Beba API and Web Service
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/app/backend
+ExecStart=/app/backend/labeba
+Restart=on-failure
+EnvironmentFile=/app/backend/.env
+
+[Install]
+WantedBy=multi-user.target

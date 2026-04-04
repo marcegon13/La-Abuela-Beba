@@ -1,0 +1,50 @@
+Mar 09 02:27:02 srv1464046 systemd[1]: labeba.service: Main process exited, code=exited, status=1/FAILURE
+Mar 09 02:27:02 srv1464046 systemd[1]: labeba.service: Failed with result 'exit-code'.
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Scheduled restart job, restart counter is at 1.
+Mar 09 02:27:03 srv1464046 systemd[1]: Started labeba.service - La Beba API and Web Service.
+Mar 09 02:27:03 srv1464046 labeba[48353]: Connected to PostgreSQL database
+Mar 09 02:27:03 srv1464046 labeba[48353]: Gallery table ready
+Mar 09 02:27:03 srv1464046 labeba[48353]: Huespedes historicos table ready
+Mar 09 02:27:03 srv1464046 labeba[48353]: Beds tables ready
+Mar 09 02:27:03 srv1464046 labeba[48353]: Serving frontend from: ../frontend/dist
+Mar 09 02:27:03 srv1464046 labeba[48353]: Server starting on port 80...
+Mar 09 02:27:03 srv1464046 labeba[48353]: 2026/03/09 02:27:03 Server failed to start: listen tcp :80: bind: address already in use
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Main process exited, code=exited, status=1/FAILURE
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Failed with result 'exit-code'.
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Scheduled restart job, restart counter is at 2.
+Mar 09 02:27:03 srv1464046 systemd[1]: Started labeba.service - La Beba API and Web Service.
+Mar 09 02:27:03 srv1464046 labeba[48359]: Connected to PostgreSQL database
+Mar 09 02:27:03 srv1464046 labeba[48359]: Gallery table ready
+Mar 09 02:27:03 srv1464046 labeba[48359]: Huespedes historicos table ready
+Mar 09 02:27:03 srv1464046 labeba[48359]: Beds tables ready
+Mar 09 02:27:03 srv1464046 labeba[48359]: Serving frontend from: ../frontend/dist
+Mar 09 02:27:03 srv1464046 labeba[48359]: Server starting on port 80...
+Mar 09 02:27:03 srv1464046 labeba[48359]: 2026/03/09 02:27:03 Server failed to start: listen tcp :80: bind: address already in use
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Main process exited, code=exited, status=1/FAILURE
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Failed with result 'exit-code'.
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Scheduled restart job, restart counter is at 3.
+Mar 09 02:27:03 srv1464046 systemd[1]: Started labeba.service - La Beba API and Web Service.
+Mar 09 02:27:03 srv1464046 labeba[48365]: Connected to PostgreSQL database
+Mar 09 02:27:03 srv1464046 labeba[48365]: Gallery table ready
+Mar 09 02:27:03 srv1464046 labeba[48365]: Huespedes historicos table ready
+Mar 09 02:27:03 srv1464046 labeba[48365]: Beds tables ready
+Mar 09 02:27:03 srv1464046 labeba[48365]: Serving frontend from: ../frontend/dist
+Mar 09 02:27:03 srv1464046 labeba[48365]: Server starting on port 80...
+Mar 09 02:27:03 srv1464046 labeba[48365]: 2026/03/09 02:27:03 Server failed to start: listen tcp :80: bind: address already in use
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Main process exited, code=exited, status=1/FAILURE
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Failed with result 'exit-code'.
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Scheduled restart job, restart counter is at 4.
+Mar 09 02:27:03 srv1464046 systemd[1]: Started labeba.service - La Beba API and Web Service.
+Mar 09 02:27:03 srv1464046 labeba[48370]: Connected to PostgreSQL database
+Mar 09 02:27:03 srv1464046 labeba[48370]: Gallery table ready
+Mar 09 02:27:03 srv1464046 labeba[48370]: Huespedes historicos table ready
+Mar 09 02:27:03 srv1464046 labeba[48370]: Beds tables ready
+Mar 09 02:27:03 srv1464046 labeba[48370]: Serving frontend from: ../frontend/dist
+Mar 09 02:27:03 srv1464046 labeba[48370]: Server starting on port 80...
+Mar 09 02:27:03 srv1464046 labeba[48370]: 2026/03/09 02:27:03 Server failed to start: listen tcp :80: bind: address already in use
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Main process exited, code=exited, status=1/FAILURE
+Mar 09 02:27:03 srv1464046 systemd[1]: labeba.service: Failed with result 'exit-code'.
+Mar 09 02:27:04 srv1464046 systemd[1]: labeba.service: Scheduled restart job, restart counter is at 5.
+Mar 09 02:27:04 srv1464046 systemd[1]: labeba.service: Start request repeated too quickly.
+Mar 09 02:27:04 srv1464046 systemd[1]: labeba.service: Failed with result 'exit-code'.
+Mar 09 02:27:04 srv1464046 systemd[1]: Failed to start labeba.service - La Beba API and Web Service.

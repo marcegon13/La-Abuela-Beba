@@ -1,0 +1,39 @@
+RUN: journalctl -u labeba -n 20 --no-pager
+Mar 28 23:47:14 srv1464046 labeba[722911]: 2026/03/28 23:47:14 "GET http://laabuelabeba.cloud/assets/hero_fogata.jpg HTTP/1.0" from 127.0.0.1:58654 - 200 3748960B in 1.642384ms
+Mar 28 23:47:14 srv1464046 labeba[722911]: 2026/03/28 23:47:14 "GET http://laabuelabeba.cloud/assets/logo_beba.png HTTP/1.0" from 127.0.0.1:58656 - 200 119470B in 241.76µs
+Mar 28 23:47:14 srv1464046 labeba[722911]: 2026/03/28 23:47:14 "GET http://laabuelabeba.cloud/assets/logo_beba.png HTTP/1.0" from 127.0.0.1:58660 - 200 119470B in 311.281µs
+Mar 28 23:47:18 srv1464046 labeba[722911]: 2026/03/28 23:47:18 "POST http://laabuelabeba.cloud/api/login HTTP/1.0" from 127.0.0.1:58670 - 500 15B in 560.551µs
+Mar 28 23:47:45 srv1464046 labeba[722911]: 2026/03/28 23:47:45 "GET http://laabuelabeba.cloud/assets/index-D-_4skHH.css HTTP/1.0" from 127.0.0.1:54800 - 200 100079B in 779.552µs
+Mar 28 23:48:51 srv1464046 labeba[722911]: 2026/03/28 23:48:51 "POST http://laabuelabeba.cloud/api/auth/google HTTP/1.0" from 127.0.0.1:60202 - 500 15B in 266.90106ms
+Mar 28 23:52:25 srv1464046 systemd[1]: Stopping labeba.service - La Beba API and Web Service...
+Mar 28 23:52:25 srv1464046 systemd[1]: labeba.service: Deactivated successfully.
+Mar 28 23:52:25 srv1464046 systemd[1]: Stopped labeba.service - La Beba API and Web Service.
+Mar 28 23:52:39 srv1464046 systemd[1]: Started labeba.service - La Beba API and Web Service.
+Mar 28 23:52:39 srv1464046 labeba[723143]: Connected to PostgreSQL database
+Mar 28 23:52:39 srv1464046 labeba[723143]: Gallery table ready
+Mar 28 23:52:39 srv1464046 labeba[723143]: Huespedes historicos table ready
+Mar 28 23:52:39 srv1464046 labeba[723143]: Beds tables ready
+Mar 28 23:52:39 srv1464046 labeba[723143]:    [MIGRACIÓN] Iniciando EnsureConfiguracionPreciosTable...
+Mar 28 23:52:39 srv1464046 labeba[723143]:    [MIGRACIÓN] Tabla configuracion_precios lista.
+Mar 28 23:52:39 srv1464046 labeba[723143]: Pricing config table ready
+Mar 28 23:52:39 srv1464046 labeba[723143]: Serving frontend from: ../frontend/dist
+Mar 28 23:52:39 srv1464046 labeba[723143]: [SERVER] La Beba Cloud v1.2 levantando en puerto 8080 con CORS para [http://78.142.242.199 http://78.142.242.199:80 https://laabuelabeba.cloud http://laabuelabeba.cloud https://www.laabuelabeba.cloud]
+Mar 28 23:52:50 srv1464046 labeba[723143]: 2026/03/28 23:52:50 "GET http://localhost:8080/api/pricing HTTP/1.1" from [::1]:58364 - 200 199B in 558.4µs
+RUN: cat /app/backend/.env
+DATABASE_URL=postgres://labeba_user:labeba_prod_secret_2026@127.0.0.1:5432/labeba?sslmode=disable
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_USER=labeba_user
+DB_PASSWORD=labeba_prod_secret_2026
+DB_NAME=labeba
+DB_SSLMODE=disable
+JWT_SECRET=super_secret_PROD_key_la_beba_2026_xyz
+CORS_ORIGINS=http://78.142.242.199,http://78.142.242.199:80,https://laabuelabeba.cloud,http://laabuelabeba.cloud,https://www.laabuelabeba.cloud
+PORT=8080
+SMTP_HOST=smtp.zoho.com
+SMTP_PORT=587
+SMTP_USER=info@laabuelabeba.cloud
+SMTP_PASS=Roma669!
+GOOGLE_CLIENT_ID=724314302780-9babub6ducbpvbhrnerbltofbel2too1.apps.googleusercontent.com
+RUN: curl -s http://localhost:8080/api/pricing
+{"compartido":{"base_price":18000,"discount_guests":[],"discount_lead_time":[],"discount_nights":[]},"privado":{"base_price":38000,"discount_guests":[],"discount_lead_time":[],"discount_nights":[]}}
