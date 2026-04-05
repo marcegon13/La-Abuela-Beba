@@ -388,9 +388,14 @@ const LandingPage = () => {
                                                 <div className="h-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]" style={{ width: '18%' }}></div>
                                             </div>
                                         </div>
-                                        <a href="https://wa.me/5491134826691?text=Hola! Quiero sumarme..." target="_blank" rel="noopener noreferrer" className="whitespace-nowrap px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-black uppercase tracking-widest text-xs rounded-2xl transition-all shadow-xl shadow-emerald-900/20">
-                                            Sumar mi Aporte
-                                        </a>
+                                        <div className="flex flex-col gap-3 w-full sm:w-auto mt-4 sm:mt-0">
+                                            <a href="https://wa.me/5491134826691?text=Hola! Quiero sumarme..." target="_blank" rel="noopener noreferrer" className="whitespace-nowrap px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-black uppercase tracking-widest text-xs rounded-xl transition-all text-center">
+                                                Sumar mi Aporte
+                                            </a>
+                                            <a href="https://giveth.io/es/project/la-abuela-beba-regen-surf-club" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap px-6 py-2.5 border border-emerald-500/30 hover:bg-emerald-500/10 text-emerald-400 font-bold uppercase tracking-widest text-[10px] rounded-xl transition-all text-center">
+                                                Sumar mi aporte desde giveth.io
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
